@@ -20,7 +20,7 @@
         app:fromX="100dp"
         app:fromY="0dp"
         app:toX="100dp"
-        app:toY="200dp" />
+        app:toY="100dp" />
 
     <ru.maksim.memento_pattern.RectangleView
         android:id="@+id/rectangle2"
