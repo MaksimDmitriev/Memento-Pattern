@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="RectangleView">
+        <attr name="strokeColor" format="color" />
+    </declare-styleable>
+
+    <declare-styleable name="LineView">
+        <attr name="fromX" format="dimension" />
+        <attr name="toX" format="dimension" />
+        <attr name="fromY" format="dimension" />
+        <attr name="toY" format="dimension" />
+        <attr name="lineColor" format="color" />
+    </declare-styleable>
+</resources>
