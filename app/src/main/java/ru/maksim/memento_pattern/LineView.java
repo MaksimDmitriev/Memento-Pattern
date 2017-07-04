@@ -59,4 +59,36 @@ public class LineView extends View {
         mPaint.setColor(mLineColor);
         canvas.drawLine(mFromX, mFromY, mToX, mToY, mPaint);
     }
+
+    public float getFromX() {
+        return mFromX;
+    }
+
+    public void setFromX(float mFromX) {
+        this.mFromX = mFromX;
+    }
+
+    public float getFromY() {
+        return mFromY;
+    }
+
+    public void setFromY(float mFromY) {
+        this.mFromY = mFromY;
+    }
+
+    public float getToX() {
+        return mToX;
+    }
+
+    public void setToX(float mToX) {
+        this.mToX = mToX;
+    }
+
+    public float getToY() {
+        return mToY;
+    }
+
+    public void setToY(float mToY) {
+        this.mToY = mToY;
+    }
 }

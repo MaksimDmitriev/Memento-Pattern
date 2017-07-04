@@ -9,7 +9,8 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        findViewById(R.id.rectangle1).setOnTouchListener(new OnDragListener());
-        findViewById(R.id.rectangle2).setOnTouchListener(new OnDragListener());
+        LineView lineView = (LineView) findViewById(R.id.lineView);
+        findViewById(R.id.rectangle1).setOnTouchListener(new OnDragListener(lineView));
+        findViewById(R.id.rectangle2).setOnTouchListener(new OnDragListener(lineView));
     }
 }
